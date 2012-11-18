@@ -1,4 +1,6 @@
 Workshop::Application.routes.draw do
+  get "mailgun/forward"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
