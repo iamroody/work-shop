@@ -1,5 +1,5 @@
 Workshop::Application.routes.draw do
-  get "mailgun/forward"
+  post "mailgun/forward"
 
   get "welcome/index"
 
